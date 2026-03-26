@@ -1,12 +1,22 @@
 # Zeek
 an open-source, passive network security monitor (NSM) used on Linux and other Unix-like systems to analyze network traffic. Unlike a firewall that blocks traffic, Zeek "listens" to a network feed and transforms raw data into high-fidelity, structured logs for security analysis and troubleshooting.
+
+
 Structured Logging: It automatically categorizes traffic into readable log files such as conn.log (connections), http.log (web activity), dns.log (queries), and ssl.log (certificates).
+
+
 Passive Analysis: It operates out-of-band, meaning it doesn't slow down network performance while it observes and records activity.
 Custom Scripting: Zeek uses its own Turing-complete scripting language, allowing users to write custom rules to detect specific threats or automate complex analysis.
+
+
 File Extraction: It can identify and extract files (like executables or documents) directly from the network stream for further malware analysis
 Common Use Cases
+
+
 Threat Hunting: Security teams use Zeek's detailed metadata to find "needles in the haystack" that standard antivirus or firewalls might miss.
+
 Forensics: After a security incident, Zeek logs provide a historical record to reconstruct exactly what happened on the network.
+
 Performance Monitoring: It helps network engineers identify bottlenecks, misconfigured devices, or unauthorized services
 
 How to install in Kali linux
